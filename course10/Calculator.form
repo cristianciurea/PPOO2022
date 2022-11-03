@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ro.ase.seminar10.Calculator">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="21a95" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="b0924" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Valoare 1"/>
+        </properties>
+      </component>
+      <component id="e759b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="e3bf9" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Valoare 2"/>
+        </properties>
+      </component>
+      <component id="41bf3" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="419b9" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Total"/>
+        </properties>
+      </component>
+      <component id="81981" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="bf644" class="javax.swing.JButton" binding="calculeazaButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Calculeaza"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
