@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="container" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="27.0" minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="27.0" minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="27.0" minHeight="0.0" prefHeight="27.0" />
+      <RowConstraints maxHeight="27.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+   </rowConstraints>
+   <children>
+      <Label alignment="CENTER" prefHeight="164.0" prefWidth="221.0" text="Student nou" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label text="Nume:" GridPane.rowIndex="1" />
+      <TextField fx:id="tfNume" GridPane.rowIndex="2" />
+      <TextField fx:id="tfVarsta" GridPane.rowIndex="6" />
+      <Label text="Varsta:" GridPane.rowIndex="5" />
+      <Label text="Sex:" GridPane.rowIndex="7" />
+      <ComboBox fx:id="cbSex" prefWidth="150.0" GridPane.rowIndex="8" />
+      <Button fx:id="btnAdauga" mnemonicParsing="false" prefHeight="4.0" prefWidth="221.0" text="Adauga" GridPane.rowIndex="10">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</GridPane>
